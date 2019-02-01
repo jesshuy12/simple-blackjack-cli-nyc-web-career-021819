@@ -60,5 +60,6 @@ end
 def runner
   welcome
   deal = initial_round
+  
 end
     
