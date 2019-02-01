@@ -26,7 +26,7 @@ end
 def end_game(card_total)
   # code #end_game here
   if card_total > 21
-    puts 
+    puts "Sorry, you hit #{card_total}. Thanks for playing!"
 end
 
 def initial_round
