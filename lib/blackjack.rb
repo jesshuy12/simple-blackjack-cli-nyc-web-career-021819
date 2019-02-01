@@ -2,6 +2,7 @@ def welcome
   # code #welcome here
   puts "Welcome to the Blackjack Table"
 end
+end
 
 def deal_card
   number = rand(1..11)
@@ -13,10 +14,12 @@ def display_card_total(card_total)
   # code #display_card_total here
   puts "Your cards add up to #{card_total}"
 end
+end
 
 def prompt_user
   # code #prompt_user here
   puts "Type 'h' to hit or 's' to stay"
+end
 end
 
 def get_user_input
