@@ -2,22 +2,27 @@ def welcome
   puts "Welcome to the Blackjack Table"
 end
 
+
 def deal_card
   number = rand(1..11)
   return number
 end
 
+
 def display_card_total(card_total)
   puts "Your cards add up to #{card_total}"
 end
+
 
 def prompt_user
   puts "Type 'h' to hit or 's' to stay"
 end
 
+
 def get_user_input
   method = gets.chomp
 end
+
 
 def end_game(card_total)
   if card_total > 21
@@ -25,11 +30,13 @@ def end_game(card_total)
   end
 end
 
+
 def initial_round
   card_total = deal_card + deal_card
   display_card_total(card_total)
   return card_total
 end
+
 
 def hit?(card_total)
   prompt_user
@@ -40,6 +47,7 @@ def hit?(card_total)
       return card_total
   end
 end
+
 
 def invalid_command
   # code invalid_command here
