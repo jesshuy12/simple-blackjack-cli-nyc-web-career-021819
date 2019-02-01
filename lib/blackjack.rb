@@ -62,7 +62,7 @@ end
 def runner
   welcome
   deal = initial_round
-  until deal > 21 do
+  until deal > 21
     
   
 end
