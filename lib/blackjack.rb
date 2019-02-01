@@ -25,6 +25,7 @@ end
 
 def end_game(card_total)
   # code #end_game here
+  if card_total > 21
 end
 
 def initial_round
